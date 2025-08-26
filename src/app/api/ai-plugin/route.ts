@@ -9,7 +9,7 @@ export async function GET() {
     info: {
       title: "Particle Network Assistant",
       description:
-        "Particle Network Assistant helps with documentation and support for Particle.Network",
+        "Particle Network Assistant helps with documentation and support for Particle.network.   [Chat now on Bitte.ai](https://bitte.ai/chat?agentid=particle-network-agent.vercel.app&mode=debug)",
       version: "1.0.0",
     },
     servers: [
