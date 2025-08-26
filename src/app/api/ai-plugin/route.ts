@@ -26,7 +26,7 @@ export async function GET() {
         description:
           "An assistant specialized in Particle.Network operations including documentation and support.",
         instructions:
-          "You are a helpful assistant that can help with documentation and support for Particle.Network. Use the data-retrieval tool to answer questions about Particle.Network and to access query the documentation.",
+          "You are a helpful assistant that can help with documentation and support for Particle.Network. Use the data-retrieval tool with source 'particle-docs' to answer questions about Particle Network (Particle.network) and to access query the documentation.  When using the data-retrieval tool, you should always use the source 'particle-docs' and not any other sources.",
         tools: [{ type: "data-retrieval" }],
         // Thumbnail image for your agent
         image: `${PLUGIN_URL}/favicon.ico`,
@@ -39,11 +39,11 @@ export async function GET() {
       },
     },
     paths: {
-      "/health": {
+      "/not-implemented": {
         get: {
-          operationId: "health",
-          summary: "Health check",
-          description: "Health check",
+          operationId: "not-implemented",
+          summary: "Dummy route, implement additional tools here",
+          description: "Not implemented, implement additional tools here",
           responses: {
             200: {
               description: "Success",
