@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { ACCOUNT_ID, PLUGIN_URL } from "@/lib/config";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const pluginData = {
     openapi: "3.0.0",
