@@ -2,6 +2,10 @@
 
 A specialized AI assistant for Particle.Network operations including documentation and support. This bot provides intelligent access to Particle Network's comprehensive documentation and developer resources.
 
+## Demo on Bitte.ai
+
+[https://bitte.ai/chat?agentid=particle-network-agent.vercel.app&mode=debug](https://bitte.ai/chat?agentid=particle-network-agent.vercel.app&mode=debug)
+
 ## Features
 
 - **Documentation Query**: Access and search through Particle Network documentation using AI-powered data retrieval
