@@ -1,0 +1,30 @@
+{
+  "name": "particle-network-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"make-agent dev\"",
+    "dev:agent": "next dev",
+    "build": "next build",
+    "deploy-agent": "bun make-agent deploy -u https://particle-network-agent.vercel.app",
+    "start": "next start",
+    "check": "bun biome check",
+    "check:fix": "bun biome check --write --unsafe"
+  },
+  "dependencies": {
+    "@scalar/nextjs-api-reference": "^0.8.16",
+    "next": "^15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vercel-url": "^0.2.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.2",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "concurrently": "^9.2.0",
+    "make-agent": "^0.3.5",
+    "typescript": "5.9.2"
+  }
+}
