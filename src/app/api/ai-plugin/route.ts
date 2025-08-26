@@ -26,7 +26,7 @@ export async function GET() {
         description:
           "An assistant specialized in Particle.Network operations including documentation and support.",
         instructions:
-          "You are a helpful assistant that can help with documentation and support for Particle.Network. Use the data-retrieval tool with source 'particle-docs' to answer questions about Particle Network (Particle.network) and to access query the documentation.  When using the data-retrieval tool, you should always use the source 'particle-docs' and not any other sources.",
+          "You are a helpful assistant that can help with documentation and support for Particle.Network. Use the data-retrieval tool with source 'particle_docs' to answer questions about Particle Network (Particle.network) and to access query the documentation.  When using the data-retrieval tool, you should always use the source 'particle_docs' and not any other sources.",
         tools: [{ type: "data-retrieval" }],
         // Thumbnail image for your agent
         image: `${PLUGIN_URL}/favicon.ico`,
